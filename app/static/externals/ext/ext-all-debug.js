@@ -42215,7 +42215,7 @@ Ext.form.ComboBox = Ext.extend(Ext.form.TriggerField, {
         if(!Ext.isDefined(this.listWidth)){
             var lw = Math.max(w, this.minListWidth);
             this.list.setWidth(lw);
-            this.innerList.setWidth(lw - this.list.getFrameWidth('lr'));
+            //this.innerList.setWidth(lw - this.list.getFrameWidth('lr'));
         }
     },
 
